@@ -1,5 +1,4 @@
-'use client';
-
+'use client'
 import Link from 'next/link'
 import React, { useState } from 'react';
 import { ShoppingBag, Menu, X } from 'lucide-react';
@@ -69,4 +68,6 @@ const Navbar: React.FC = () => {
     </nav>
   );
 };
+
+export default Navbar;
 
